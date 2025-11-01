@@ -1,7 +1,7 @@
 import React from 'react';
-import Img2 from '../../assets/farfalle.jpg';
-import Img1 from '../../assets/229320906_11007339.png';
-import Img3 from '../..//assets/54999735_9329466.png';
+import Img2 from '../assets/farfalle.jpg';
+import Img1 from '../assets/229320906_11007339.png';
+import Img3 from '../assets/54999735_9329466.png';
 
 const FoodData = [
     {
