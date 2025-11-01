@@ -1,31 +1,27 @@
 import React from 'react';
-import Img2 from '../../assets/farfalle.jpg';
-import Img1 from '../../assets/229320906_11007339.png';
-import Img3 from '../../assets/54999735_9329466.png';
+import Img2 from '../../assets/peppersoup.jpeg';
+import Img1 from '../../assets/okra.jpg';
+import Img3 from '../../assets/Isiewu2.jpg';
+import Img4 from '../../assets/egusi.jpg';
+import Img5 from '../../assets/bitterleaf.jpeg';
+import Img6 from '../../assets/Vegetable-Soup.jpg';
 
 const FoodData = [
     {
         image: Img2,
-        name: "Materelli",
+        name: "Chicken Peppersoup",
         desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
         buy: 'View Recipe',    
         link: "#",
     },
     {
         image: Img1,
-        name: "Hamburger",
+        name: "Okra soup",
         desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.", 
         buy: 'View Recipe',    
         link: "#", 
     },
     {
-        image: Img3,
-        name: "Vegan Brunch",
-        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        buy: 'View Recipe',    
-        link: "#",
-    },
-     {
         image: Img3,
         name: "Isiewu",
         desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
@@ -33,14 +29,21 @@ const FoodData = [
         link: "#",
     },
      {
-        image: Img3,
-        name: "Chicken Peppersoup",
+        image: Img4,
+        name: "Egusi soup",
         desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
         buy: 'View Recipe',    
         link: "#",
     },
      {
-        image: Img3,
+        image: Img5,
+        name: "Bitterleaf soup",
+        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        buy: 'View Recipe',    
+        link: "#",
+    },
+     {
+        image: Img6,
         name: "Efo Riro",
         desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
         buy: 'View Recipe',    
