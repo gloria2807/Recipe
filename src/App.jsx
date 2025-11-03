@@ -2,6 +2,9 @@ import React from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import RecipeList from './Components/RecipeList/RecipeList';
+import Rice from './Components/RecipeList/Rice';
+import Snacks from './Components/RecipeList/Snacks';
+import Swallow from './Components/RecipeList/Swallow';
 import BgImage from './assets/tagliatelle.jpg';
 import Banner from './Components/Banner/Banner';
 import Footer from './Components/Footer/Footer';
@@ -20,6 +23,9 @@ return (
     <Navbar />
     <Hero />
     <RecipeList />
+    <Rice />
+    <Swallow />
+    <Snacks />
     <Banner />
     <Footer />
   </div>

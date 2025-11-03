@@ -1,6 +1,4 @@
 import React from 'react';
-import Passport from '../../assets/5177900.jpg';
-import { IoIosArrowDown } from "react-icons/io";
 import { FaSearch } from 'react-icons/fa';
 
 const Navbar = () => {
@@ -11,12 +9,6 @@ const Navbar = () => {
             RECIPE <span className='text-red-500'>BOOK</span>
         </p>
     </div>
-    <div className=' text-gray-500'>
-              <input className='border-0 rounded-sm bg-white px-15 focus:border-0 focus:border-amber-500'
-              type='text' placeholder='Search for Recipes'/>
-              <FaSearch className='-translate-y-11/12 pointer-cursor font-normal text-gray-700'/>
-            </div>
-
     <div className='flex justify-center items-center gap-10'>
         <ul className='gap-8 hidden sm:flex '>
             <li className='hover:border-b-2
@@ -27,6 +19,14 @@ const Navbar = () => {
             border-primary uppercase'>About</li>
         </ul>
     </div>
+    <div className=' text-gray-500'>
+              <input className='border-0 rounded-sm bg-white focus:border-0 focus:border-amber-500'
+              type='text' placeholder='Search for Recipes...'/>
+              <FaSearch className='text-gray-400 absolute top-5 left-295 translateY(-50%) cursor-pointer'/>
+            </div>
+             
+
+    
 </div>
   </div>;
 };

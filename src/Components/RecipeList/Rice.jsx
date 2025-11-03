@@ -1,63 +1,52 @@
 import React from 'react';
-import Img2 from '../../assets/peppersoup.jpeg';
-import Img1 from '../../assets/okra.jpg';
-import Img3 from '../../assets/Isiewu2.jpg';
-import Img4 from '../../assets/egusi.jpg';
-import Img5 from '../../assets/bitterleaf.jpeg';
-import Img6 from '../../assets/Vegetable-Soup.jpg';
+import Img2 from '../../assets/jollof-rice.jpg';
+import Img1 from '../../assets/fried-rice.png';
+import Img3 from '../../assets/ofada.png';
+import Img4 from '../../assets/white-rice.jpg';
+import Img5 from '../../assets/Coconut-rice.jpg';
 
 const FoodData = [
     {
-        image: Img2,
-        name: "Chicken Peppersoup",
+        image: Img1,
+        name: "Fried Rice",
         desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
         buy: 'View Recipe',    
         link: "#",
     },
     {
-        image: Img1,
-        name: "Okra soup",
+        image: Img2,
+        name: "Jollof Rice",
         desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.", 
         buy: 'View Recipe',    
         link: "#", 
     },
     {
         image: Img3,
-        name: "Isiewu",
+        name: "Ofada Rice",
         desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
         buy: 'View Recipe',    
         link: "#",
     },
      {
         image: Img4,
-        name: "Egusi soup",
+        name: "White Rice",
         desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
         buy: 'View Recipe',    
         link: "#",
     },
      {
         image: Img5,
-        name: "Bitterleaf soup",
-        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        buy: 'View Recipe',    
-        link: "#",
-    },
-     {
-        image: Img6,
-        name: "Efo Riro",
+        name: "Coconut Rice",
         desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
         buy: 'View Recipe',    
         link: "#",
     }
 ];
 
-const RecipeList = () => {
+const Rice = () => {
   return (
     <div className='px-10 py-14'>
-    <div className='text-center mb-12'>
-        <h1 className='text-4xl font-semibold'>OUR RECIPE COLLECTION</h1>
-    </div>
-    <h1 className='text-center mb-6 text-2xl font-semibold text-orange-400'>SOUPS</h1>
+    <h1 className='text-center mb-6 text-2xl font-semibold text-orange-400'>RICE RECIPES</h1>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center'>
            {FoodData.map((item, index) => (
             <div
@@ -82,4 +71,4 @@ const RecipeList = () => {
   )
 }
 
-export default RecipeList
+export default Rice
